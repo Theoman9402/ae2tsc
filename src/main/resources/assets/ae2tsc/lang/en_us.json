@@ -1,0 +1,10 @@
+{
+  "key.categories.ae2tsc": "AE2 Terminal Scroll Cycling",
+  "key.ae2tsc.scroll_modifier": "Modifier Key",
+
+  "ae2tsc.configuration.invertMouseScrollCycling": "Invert",
+  "ae2tsc.configuration.scrollCycleDelayMs": "Delay",
+
+  "ae2tsc.configuration.invertMouseScrollCycling.tooltip": "Reverses the scroll-wheel direction.",
+  "ae2tsc.configuration.scrollCycleDelayMs.tooltip": "Cooldown in milliseconds between cycles."
+}
