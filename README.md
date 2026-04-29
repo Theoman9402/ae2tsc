@@ -6,8 +6,8 @@ Adds mouse wheel cycling for your installed terminals in the Universal Terminal.
 
 ## Features
 
-- Scroll through your active terminals by holding down a key (not bound by default)
-- Uses AE2WTLib's existing terminal cycling logic
+- Scroll through your active terminals by holding down a key (not bound by default) and scrolling. 
+- Uses your installed terminal order, as it would normally by the Universal Terminal.
 
 ## Requirements
 
