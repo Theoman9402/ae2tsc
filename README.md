@@ -18,7 +18,7 @@ Adds mouse wheel cycling for your installed terminals in the Universal Terminal.
 
 Works with terminals that can be added to the AE2WTLib Universal Terminal.
 
-Tested in with:
+Tested with:
 
 - ME Requester
 - ExtendedAE
@@ -28,7 +28,7 @@ Tested in with:
 ## Usage
 
 1. Bind "Scroll Modifier" in Minecraft Controls.
-2. Open a compatible terminal, hold the key you just bound, and scroll.
+2. Open your universal terminal, hold the key you just bound, and scroll.
 
 ## Credits
 
