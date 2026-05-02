@@ -7,17 +7,13 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
-import net.neoforged.fml.loading.FMLEnvironment;
 
-@Mod(AE2TSC.MODID)
+@Mod(value = AE2TSC.MODID, dist = Dist.CLIENT)
 public class AE2TSC {
     public static final String MODID = "ae2tsc";
 
     public AE2TSC(IEventBus modEventBus, ModContainer modContainer) {
         modContainer.registerConfig(ModConfig.Type.CLIENT, ClientConfig.SPEC);
-
-        if (FMLEnvironment.dist == Dist.CLIENT) {
-            ClientModEvents.init(modEventBus, modContainer);
-        }
+        ClientModEvents.init(modEventBus, modContainer);
     }
 }
